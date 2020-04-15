@@ -1,0 +1,8 @@
+.DS_Store
+**/*.pem
+
+dotfiles/.config/gtk-2.0/
+
+dotfiles/.vim/backup
+dotfiles/.vim/bundle
+dotfiles/.vim/.netrwhist
