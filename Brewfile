@@ -53,7 +53,15 @@ cask "qlimagesize"
 cask "qlvideo"
 
 # Fonts
+cask "font-lato"
+# cask "font-lobster-two" # Downloads entire Google Fonts repository?!
 cask "font-meslo-for-powerline"
 cask "font-source-code-pro"
 cask "font-source-sans-pro"
 cask "font-source-serif-pro"
+cask "font-vollkorn"
+
+# I don't use `brew cask` with normal applications primarily because
+# those applications tend to have their own update processes, which
+# confuses brew tremendously, and it's easier to just not deal with
+# the hassle
