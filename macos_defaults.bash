@@ -5,3 +5,6 @@
 
 # Have Minecraft (and all Java apps) default to the list of apps that default the touchbar to function keys
 defaults write com.apple.touchbar.agent PresentationModePerApp -dict-add net.java.openjdk.cmd functionKeys
+
+# Prevent the Dock from being resized by the user
+defaults write com.apple.dock size-immutable -bool true
