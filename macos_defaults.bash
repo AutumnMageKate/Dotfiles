@@ -8,3 +8,9 @@ defaults write com.apple.touchbar.agent PresentationModePerApp -dict-add net.jav
 
 # Prevent the Dock from being resized by the user
 defaults write com.apple.dock size-immutable -bool true
+
+# Don't capture drop shadows around windows on screenshots (hold option to temporarily override)
+defaults write com.apple.screencapture disable-shadow -bool true
+
+# Disable press-and-hold in favor of key repeat
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
