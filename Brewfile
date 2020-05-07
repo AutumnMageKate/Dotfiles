@@ -1,3 +1,4 @@
+# Standard Taps
 tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -65,3 +66,7 @@ cask "font-vollkorn"
 # those applications tend to have their own update processes, which
 # confuses brew tremendously, and it's easier to just not deal with
 # the hassle
+
+# Speedtest
+tap "teamookla/speedtest"
+brew "speedtest"
