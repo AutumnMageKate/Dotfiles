@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source ~/.local.secrets
+
+# No salt is needed for decryption.
+# If decryption fails, use `cat` instead. 
+# Error messages are redirected to /dev/null.
+openssl enc -d -base64 -aes-256-ecb -k "${GIT_OPENSSL_PASSWORD}" 2> /dev/null || cat
+
+# Adopted from https://gist.github.com/sandeepraju/4934282f5f87c83ddd93

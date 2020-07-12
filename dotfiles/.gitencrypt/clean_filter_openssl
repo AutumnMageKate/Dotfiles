@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+source ~/.local.secrets
+
+openssl enc -aes-256-ecb -base64 -S "${GIT_OPENSSL_SALT}" -k "${GIT_OPENSSL_PASSWORD}"
+
+# Adopted from https://gist.github.com/sandeepraju/4934282f5f87c83ddd93
