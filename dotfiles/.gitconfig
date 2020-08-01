@@ -34,3 +34,5 @@
 	clean = ~/.gitencrypt/clean_filter_openssl
 [diff "openssl"]
 	textconv = ~/.gitencrypt/diff_filter_openssl
+[init]
+	defaultBranch = main
