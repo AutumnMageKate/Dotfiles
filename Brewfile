@@ -16,6 +16,7 @@ brew "reattach-to-user-namespace"
 brew "git"
 brew "git-lfs"
 brew "tig"
+brew "git-filter-repo"
 
 # Helpful
 brew "cloc"
@@ -61,11 +62,6 @@ cask "font-source-code-pro"
 cask "font-source-sans-pro"
 cask "font-source-serif-pro"
 cask "font-vollkorn"
-
-# I don't use `brew cask` with normal applications primarily because
-# those applications tend to have their own update processes, which
-# confuses brew tremendously, and it's easier to just not deal with
-# the hassle
 
 # Speedtest
 tap "teamookla/speedtest"
