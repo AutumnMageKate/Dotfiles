@@ -17,6 +17,7 @@ brew "git"
 brew "git-lfs"
 brew "tig"
 brew "git-filter-repo"
+brew "svn"
 
 # Helpful
 brew "cloc"
