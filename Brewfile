@@ -59,6 +59,7 @@ cask "qlvideo"
 cask "font-lato"
 # cask "font-lobster-two" # Downloads entire Google Fonts repository?!
 cask "font-meslo-for-powerline"
+cask "font-montserrat"
 cask "font-source-code-pro"
 cask "font-source-sans-pro"
 cask "font-source-serif-pro"
